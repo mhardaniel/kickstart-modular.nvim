@@ -49,6 +49,11 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- Neotree --
-vim.keymap.set ('n', '<C-n>', ':Neotree filesystem toggle<CR>')
+vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle<CR>')
 
+-- File --
+-- close file without saving
+vim.keymap.set('n', '<C-w>', ':q!<CR>')
+-- close and save
+vim.keymap.set('n', '<C-q>', ':wq!<CR>')
 -- vim: ts=2 sts=2 sw=2 et
