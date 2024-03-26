@@ -1,12 +1,12 @@
 return {
-  "nvim-neo-tree/neo-tree.nvim",
-  version = "*",
+  'nvim-neo-tree/neo-tree.nvim',
+  version = '*',
   dependencies = {
-    "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-web-devicons",
-    "MunifTanjim/nui.nvim",
+    'nvim-lua/plenary.nvim',
+    'nvim-tree/nvim-web-devicons',
+    'MunifTanjim/nui.nvim',
   },
-  config = function ()
+  config = function()
     require('neo-tree').setup {}
   end,
 }
