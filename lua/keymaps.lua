@@ -51,9 +51,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
--- Neotree --
-vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle<CR>')
-
 -- Move to first symbol on the line
 vim.keymap.set('n', 'H', '^')
 
