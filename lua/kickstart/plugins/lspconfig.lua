@@ -183,6 +183,11 @@ return {
             },
           },
         },
+        phpactor = {
+          --[[ cmd = { 'phpactor', 'language-server' },
+          filetypes = { 'php' },
+          root_dir = root_pattern('composer.json', '.git'), ]]
+        },
       }
 
       -- Ensure the servers and tools above are installed

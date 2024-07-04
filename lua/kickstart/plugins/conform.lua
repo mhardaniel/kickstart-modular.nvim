@@ -35,7 +35,13 @@ return {
         typescript = { { 'prettierd', 'prettier' } },
         javascript = { { 'prettierd', 'prettier' } },
         json = { { 'prettierd', 'prettier' } },
+        php = { { 'pint' } },
       },
+      --[[ formatters = {
+        php = {
+          command = './vendor/bin/pint',
+        },
+      }, ]]
     },
   },
 }
