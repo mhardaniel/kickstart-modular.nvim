@@ -36,6 +36,7 @@ return {
         javascript = { { 'prettierd', 'prettier' } },
         json = { { 'prettierd', 'prettier' } },
         php = { { 'pint' } },
+        yaml = { { 'prettierd', 'prettier' } },
       },
       --[[ formatters = {
         php = {
