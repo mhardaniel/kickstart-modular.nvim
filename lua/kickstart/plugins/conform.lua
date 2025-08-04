@@ -45,11 +45,11 @@ return {
         php = { 'pint' },
         yaml = { 'prettierd', 'prettier', stop_after_first = true },
       },
-      --[[ formatters = {
+      [[ formatters = {
         php = {
           command = './vendor/bin/pint',
         },
-      }, ]]
+      }, ]],
     },
   },
 }
