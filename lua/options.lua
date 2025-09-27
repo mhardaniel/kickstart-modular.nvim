@@ -123,4 +123,7 @@ vim.o.gdefault = true
 -- Lazy redraw
 vim.o.lazyredraw = true
 
+vim.wo.foldmethod = 'expr'
+vim.wo.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+
 -- vim: ts=2 sts=2 sw=2 et
